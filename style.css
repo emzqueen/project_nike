@@ -1,0 +1,65 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.site-header {
+  background-color: #012D63;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  height: 60px;
+  margin-right: 40px;
+}
+
+.main-nav .nav-list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-list a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #FF68B4;
+}
+
+.lang-switcher {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 40px;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.hero-section {
+  height: 100vh;
+  background-image: url('images/nike-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
